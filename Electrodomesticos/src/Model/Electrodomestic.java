@@ -39,11 +39,39 @@ public abstract class Electrodomestic implements Color,Consumption {
 		this._checkColor(color);
 	}
 	
+	/**
+	 * @return the _basePrice
+	 */
+	public float get_basePrice() {
+		return _basePrice;
+	}
+
+	/**
+	 * @return the _color
+	 */
+	public String get_color() {
+		return _color;
+	}
+
+	/**
+	 * @return the _consumption
+	 */
+	public char get_consumption() {
+		return _consumption;
+	}
+
+	/**
+	 * @return the _weight
+	 */
+	public float get_weight() {
+		return _weight;
+	}
+
 	private boolean _checkConsumption(char letter) {
 		if ((letter >= 'A' && letter <= 'F')) {
             return true;
         }else{
-        	this._consumption=Consumption._F;
+        	this._consumption=_DEFAULT_CONSUMPTION;
         	return false;
         }
 	}
@@ -61,13 +89,13 @@ public abstract class Electrodomestic implements Color,Consumption {
 	        case "GRAY":
 	        	return true;
 	        default:
-	        	this._color=Color._WHITE;
+	        	this._color=_DEFAULT_COLOR;
 	        	return false;
 			}
 	}
 	
 	public float _finalPrice() {
-		float finalPrice=this._finalPrice();
+		float finalPrice=_basePrice;
 		float increaseValue = 0;
 		
 		switch(this._consumption){
@@ -89,15 +117,17 @@ public abstract class Electrodomestic implements Color,Consumption {
 	        case 'F':
 	        	increaseValue+=10;
 	            break;
+	        default:
+	        	break;
 	    }
 	
-	    if(this._weight>=0 && this._weight<19){
+	    if(_weight>=0 && _weight<19){
 	    	increaseValue+=10;
-		    }else if(this._weight>=20 && this._weight<49){
+		    }else if(_weight>=20 && _weight<49){
 		    	increaseValue+=50;
-			    }else if(this._weight>=50 && this._weight<=79){
+			    }else if(_weight>=50 && _weight<=79){
 			    	increaseValue+=80;
-				    }else if(this._weight>=80){
+				    }else if(_weight>=80){
 				    	increaseValue+=100;
 	    }
 		
