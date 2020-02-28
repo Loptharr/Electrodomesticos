@@ -52,8 +52,18 @@ public class Television extends Electrodomestic {
 
 	@Override
 	public float _finalPrice() {
-		// TODO Auto-generated method stub
-		return super._finalPrice();
+		float finalPrice = super._finalPrice();
+		float increaseValue = 0;
+		
+		if (_resolution>40) {
+			increaseValue += (float) (finalPrice*0.3);
+		}
+		
+		if (_hasTdt) {
+			increaseValue += 50;
+		}
+		finalPrice+=increaseValue;
+		return finalPrice;
 	} 
 	
 	
