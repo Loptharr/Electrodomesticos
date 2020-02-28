@@ -3,9 +3,10 @@ package Controller;
 import Model.Electrodomestic;
 
 public class Control {
+	public Electrodomestic[] _artifacts;
 	
-	Electrodomestic[] _articats = new Electrodomestic [10];
-	
-	
+	public Control() {
+		this._artifacts = new Electrodomestic [10];
+	}
 
 }
