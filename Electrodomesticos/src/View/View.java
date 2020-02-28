@@ -2,6 +2,8 @@ package View;
 
 import Controller.Control;
 import Controller.TotalPrice;
+import Model.Color;
+import Model.Consumption;
 import Model.Television;
 import Model.WashingMachine;
 
@@ -22,16 +24,16 @@ public class View {
 	
 	public static void _assignData(Control n,int option) {
 		
-		n._artifacts[1]= new Television(70, true, 100, "NEGRO", 'A', 145);
-		n._artifacts[2]= new WashingMachine(10, 100, "BLANCO", 'F', 50);
-//		n._artifacts[3]= new Television();
-//		n._artifacts[4]= new WashingMachine();
-//		n._artifacts[5]= new Television();
-//		n._artifacts[6]= new WashingMachine();
-//		n._artifacts[7]= new Television();
-//		n._artifacts[8]= new WashingMachine();
-//		n._artifacts[9]= new Television();
-//		n._artifacts[10]= new WashingMachine();
+		n._artifacts[0]= new Television(70, true, 150000, Color._BLACK, Consumption._A, 145);
+		n._artifacts[1]= new WashingMachine(10, 220000, Color._WHITE, Consumption._F, 50);
+		n._artifacts[2]= new Television(500000);
+		n._artifacts[3]= new WashingMachine(30,120000);
+		n._artifacts[4]= new Television(70, true, 145000, Color._GRAY, Consumption._E, 145);
+		n._artifacts[5]= new WashingMachine();
+		n._artifacts[6]= new Television();
+		n._artifacts[7]= new WashingMachine();
+		n._artifacts[8]= new Television();
+		n._artifacts[9]= new WashingMachine();
 	}
 	
 	

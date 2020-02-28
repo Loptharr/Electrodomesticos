@@ -15,12 +15,15 @@ public abstract class Electrodomestic implements Color,Consumption {
     final char _DEFAULT_CONSUMPTION = Consumption._F;
 
 	final int _DEFAULT_WEIGHT = 5;
+	
+	final float _DEFAULT_PRICE = 100000;
 
 	public Electrodomestic() {
 		super();
 		this._color=_DEFAULT_COLOR;
 		this._consumption=_DEFAULT_CONSUMPTION;
 		this._weight=_DEFAULT_WEIGHT;
+		this._basePrice=_DEFAULT_PRICE;
 	}
 	
 	public Electrodomestic(float weight, float basePrice) {
