@@ -67,7 +67,7 @@ public abstract class Electrodomestic implements Color,Consumption {
 		return _weight;
 	}
 
-	private boolean _checkConsumption(char letter) {
+	protected boolean _checkConsumption(char letter) {
 		if ((letter >= 'A' && letter <= 'F')) {
             return true;
         }else{
@@ -76,7 +76,7 @@ public abstract class Electrodomestic implements Color,Consumption {
         }
 	}
 	
-	private boolean _checkColor(String color) {
+	protected boolean _checkColor(String color) {
 		switch (color.toUpperCase()) {
 	        case "WHITE":
 	        	return true;

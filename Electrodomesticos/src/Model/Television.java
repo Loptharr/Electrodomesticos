@@ -30,10 +30,16 @@ public class Television extends Electrodomestic {
 	 * @param _resolution
 	 * @param _hasTdt
 	 */
-	public Television(float _resolution, boolean _hasTdt) {
+	public Television(float _resolution, boolean _hasTdt,float basePrice, String color, char consumption, float weight) {
 		super();
 		this._resolution = _resolution;
 		this._hasTdt = _hasTdt;
+		this._basePrice = basePrice;
+		this._color = color;
+		this._consumption = consumption;
+		this._weight = weight;
+		this._checkConsumption(consumption);
+		this._checkColor(color);
 	}
 
 	/**

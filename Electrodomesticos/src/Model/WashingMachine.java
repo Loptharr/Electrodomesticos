@@ -11,6 +11,7 @@ public class WashingMachine extends Electrodomestic {
 	 */
 	public WashingMachine() {
 		super();
+		this._load = _LOAD;
 	}
 
 	/**
@@ -26,9 +27,15 @@ public class WashingMachine extends Electrodomestic {
 	/**
 	 * @param _load
 	 */
-	public WashingMachine(int load) {
+	public WashingMachine(int load, float basePrice, String color, char consumption, float weight) {
 		super();
 		this._load = load;
+		this._basePrice = basePrice;
+		this._color = color;
+		this._consumption = consumption;
+		this._weight = weight;
+		this._checkConsumption(consumption);
+		this._checkColor(color);
 	}
 
 	/**
