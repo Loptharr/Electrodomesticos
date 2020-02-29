@@ -12,10 +12,10 @@ public class View {
 	//@param;     Método Main, solo ejecuta los otros métodospara su vista  Y crea el control, que es la clase que contiene el arreglo.
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Creo Control con el Array
 		Control control = new Control();
 		
-		
+		//Llamo los métodos para asignar datos al arreglo y para desplegar los resultados en consola 
 		int _option = 1;
 		_assignData(control, _option);
 		_showTotalPrices(control);
