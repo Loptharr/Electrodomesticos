@@ -1,5 +1,9 @@
 package Controller;
 
+//@author;    Marcelo Correa
+//@param;     Clase que solo sirve para contener los valores que devuelve el método _getTotalPrice de la clase View
+//@return;    entrega tres float
+
 public class TotalPrice {
 
 	public float totalPriceTelevisions=0;

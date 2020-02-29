@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_maJhwFp5EeqM7q6asrfHmQ">
+  <modelElement href="Electrodomesticos.uml#_mUlFQFp5EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uj-voFp5EeqM7q6asrfHmQ" sourceAnchor="0.0,27.0" targetAnchor="603.0,345.0" target="_unn5gFp5EeqM7q6asrfHmQ" source="_ukBL4Fp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t39-MFp5EeqM7q6asrfHmQ"/>
+    <stereotypes xmi:id="_uj_WsFp5EeqM7q6asrfHmQ" name="Reference">
+      <modelElement href="Electrodomesticos.uml#_t4BokFp5EeqM7q6asrfHmQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uj_9wFp5EeqM7q6asrfHmQ" text="">
+      <visualProperties xmi:id="_vJPY1Vp5EeqM7q6asrfHmQ" position="24.34896518567973,-14.733165563433758"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uj_9wVp5EeqM7q6asrfHmQ" aggregationKind="NONE" name="">
+      <modelElement href="Electrodomesticos.uml#_t39-MVp5EeqM7q6asrfHmQ"/>
+      <visualProperties xmi:id="_vJPY1Fp5EeqM7q6asrfHmQ" position="-52.63587981926156,-32.85627118905143"/>
+      <visibility xmi:id="_uj_9wlp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uj_9w1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uj_9xFp5EeqM7q6asrfHmQ" aggregationKind="NONE" name="_artifacts" navigable="true">
+      <modelElement href="Electrodomesticos.uml#_t2QG8Fp5EeqM7q6asrfHmQ"/>
+      <visualProperties xmi:id="_vJPY1lp5EeqM7q6asrfHmQ" position="92.50923431452375,-32.83201762654778"/>
+      <visibility xmi:id="_uj_9xVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uj_9xlp5EeqM7q6asrfHmQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_umi7cFp5EeqM7q6asrfHmQ" sourceAnchor="302.0,0.0" targetAnchor="98.0,147.0" dashed="true" superClass="_unEf4Fp5EeqM7q6asrfHmQ" subClass="_unn5gFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t1vwoFp5EeqM7q6asrfHmQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_unU-kFp5EeqM7q6asrfHmQ" sourceAnchor="71.0,0.0" targetAnchor="64.0,166.0" dashed="true" superClass="_unbFMFp5EeqM7q6asrfHmQ" subClass="_unn5gFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t1xl0Fp5EeqM7q6asrfHmQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_uovT0Fp5EeqM7q6asrfHmQ" sourceAnchor="375.0,0.0" targetAnchor="94.0,384.0" superClass="_unn5gFp5EeqM7q6asrfHmQ" subClass="_uo-kYFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t14TgFp5EeqM7q6asrfHmQ"/>
+    <bendpoints xmi:id="_vJFn0Fp5EeqM7q6asrfHmQ" sourceY="-30" targetX="700" targetY="524"/>
+    <bendpoints xmi:id="_vJPY0Fp5EeqM7q6asrfHmQ" sourceX="-700" sourceY="-30" targetY="524"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uoxwEVp5EeqM7q6asrfHmQ" targetItem="_uo-kd1p5EeqM7q6asrfHmQ" sourceItem="_uoxwEFp5EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0MUVp5EeqM7q6asrfHmQ" targetItem="_uo-khlp5EeqM7q6asrfHmQ" sourceItem="_uo0MUFp5EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo2BgFp5EeqM7q6asrfHmQ" targetItem="_uo_LcFp5EeqM7q6asrfHmQ" sourceItem="_uo1acFp5EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo3PoVp5EeqM7q6asrfHmQ" targetItem="_uo_LdVp5EeqM7q6asrfHmQ" sourceItem="_uo3PoFp5EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_upZbIFp5EeqM7q6asrfHmQ" sourceAnchor="0.0,87.0" targetAnchor="94.0,384.0" superClass="_unn5gFp5EeqM7q6asrfHmQ" subClass="_upoEoFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t1794Fp5EeqM7q6asrfHmQ"/>
+    <bendpoints xmi:id="_vJPY0Vp5EeqM7q6asrfHmQ" sourceX="-142" targetX="178" targetY="992"/>
+    <bendpoints xmi:id="_vJPY0lp5EeqM7q6asrfHmQ" sourceX="-142" sourceY="-468" targetX="178" targetY="524"/>
+    <bendpoints xmi:id="_vJPY01p5EeqM7q6asrfHmQ" sourceX="-320" sourceY="-468" targetY="524"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pL73cFp6EeqM7q6asrfHmQ" targetItem="_unogkVp5EeqM7q6asrfHmQ" sourceItem="_pLytgFp6EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pMOyYFp6EeqM7q6asrfHmQ" targetItem="_unogllp5EeqM7q6asrfHmQ" sourceItem="_pL73cVp6EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pMYjYVp6EeqM7q6asrfHmQ" targetItem="_unogm1p5EeqM7q6asrfHmQ" sourceItem="_pMYjYFp6EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pMreUFp6EeqM7q6asrfHmQ" targetItem="_unogoFp5EeqM7q6asrfHmQ" sourceItem="_pMiUYFp6EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sNvmIVp7EeqM7q6asrfHmQ" targetItem="_upoErVp5EeqM7q6asrfHmQ" sourceItem="_sNvmIFp7EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sOWDEVp7EeqM7q6asrfHmQ" targetItem="_upoEs1p5EeqM7q6asrfHmQ" sourceItem="_sOWDEFp7EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sPFp8Fp7EeqM7q6asrfHmQ" targetItem="_upoEv1p5EeqM7q6asrfHmQ" sourceItem="_sOyvAFp7EeqM7q6asrfHmQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sPPa8Vp7EeqM7q6asrfHmQ" targetItem="_upoE1Fp5EeqM7q6asrfHmQ" sourceItem="_sPPa8Fp7EeqM7q6asrfHmQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uoxwEFp5EeqM7q6asrfHmQ" sourceConnectionVisual="_uoxwEVp5EeqM7q6asrfHmQ" text="*" item="_uo-kd1p5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t3tfglp5EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0MUFp5EeqM7q6asrfHmQ" sourceConnectionVisual="_uo0MUVp5EeqM7q6asrfHmQ" text="@param _resolution&#xD;&#xA;&#x9; * @param _hasTdt" item="_uo-khlp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t3uGkFp5EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo1acFp5EeqM7q6asrfHmQ" sourceConnectionVisual="_uo2BgFp5EeqM7q6asrfHmQ" text="@return the _resolution" item="_uo_LcFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t3uGkVp5EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo3PoFp5EeqM7q6asrfHmQ" sourceConnectionVisual="_uo3PoVp5EeqM7q6asrfHmQ" text="@return the _hasTdt" item="_uo_LdVp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_t3utoFp5EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ukBL4Fp5EeqM7q6asrfHmQ" name="Control" associationsOut="_uj-voFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_tt2_8Fp5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_ukBL4Vp5EeqM7q6asrfHmQ" position="160.0,92.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ukBL4lp5EeqM7q6asrfHmQ" label="+"/>
+    <attributes xmi:id="_ukBL41p5EeqM7q6asrfHmQ" name="_artifacts">
+      <modelElement href="Electrodomesticos.uml#_t2QG8Fp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_ukBL5Fp5EeqM7q6asrfHmQ" name="Array">
+        <modelElement href="Electrodomesticos.uml#_t2R8IFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ukBL5Vp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2UYYFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ukBL5lp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_ukBL51p5EeqM7q6asrfHmQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ukBy8Fp5EeqM7q6asrfHmQ" name="Electrodomestic">
+        <modelElement href="Electrodomesticos.uml#_tvf-tFp5EeqM7q6asrfHmQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ukBy8Vp5EeqM7q6asrfHmQ" name="Control">
+      <modelElement href="Electrodomesticos.uml#_tuTr4Fp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_ukBy8lp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_ukBy81p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_ukBy9Fp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ukBy9Vp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tuc10lp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_ukBy9lp5EeqM7q6asrfHmQ" name="Control">
+          <modelElement href="Electrodomesticos.uml#_tt2_8Fp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_umM9MFp5EeqM7q6asrfHmQ" name="TotalPrice">
+    <modelElement href="Electrodomesticos.uml#_tuc101p5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_umM9MVp5EeqM7q6asrfHmQ" position="-109.0,491.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_umM9Mlp5EeqM7q6asrfHmQ" label="+"/>
+    <attributes xmi:id="_umM9M1p5EeqM7q6asrfHmQ" defaultValue="0" name="totalPriceTelevisions">
+      <modelElement href="Electrodomesticos.uml#_t2U_cFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_umM9NFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2W0oFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_umM9NVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_umM9Nlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_umM9N1p5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_umM9OFp5EeqM7q6asrfHmQ" defaultValue="0" name="totalPriceWashingMachines">
+      <modelElement href="Electrodomesticos.uml#_t2W0oVp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_umM9OVp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2Yp0Fp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_umM9Olp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_umM9O1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_umM9PFp5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_umM9PVp5EeqM7q6asrfHmQ" defaultValue="0" name="totalPriceElectrodomestics">
+      <modelElement href="Electrodomesticos.uml#_t2ZQ4Fp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_umM9Plp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2bGEFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_umM9P1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_umNkQFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_umNkQVp5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_umNkQlp5EeqM7q6asrfHmQ" name="TotalPrice">
+      <modelElement href="Electrodomesticos.uml#_tumm0Fp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_umNkQ1p5EeqM7q6asrfHmQ" keyword="create"/>
+      <stereotypes xmi:id="_umNkRFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tumm01p5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_umNkRVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_umNkRlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umNkR1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tuwX0Fp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_umNkSFp5EeqM7q6asrfHmQ" name="TotalPrice">
+          <modelElement href="Electrodomesticos.uml#_tuc101p5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_umNkSVp5EeqM7q6asrfHmQ" name="TotalPrice">
+      <modelElement href="Electrodomesticos.uml#_tuwX0Vp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_umNkSlp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_umNkS1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_umNkTFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umNkTVp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tuwX11p5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_umNkTlp5EeqM7q6asrfHmQ" name="TotalPrice">
+          <modelElement href="Electrodomesticos.uml#_tuc101p5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_umNkT1p5EeqM7q6asrfHmQ" name="totalPriceTelevisions">
+        <modelElement href="Electrodomesticos.uml#_tuwX0lp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_umNkUFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_umNkUVp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_umNkUlp5EeqM7q6asrfHmQ" name="totalPriceWashingMachines">
+        <modelElement href="Electrodomesticos.uml#_tuwX01p5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_umNkU1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_umNkVFp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_umNkVVp5EeqM7q6asrfHmQ" name="totalPriceElectrodomestics">
+        <modelElement href="Electrodomesticos.uml#_tuwX1Fp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_umNkVlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_umNkV1p5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_unEf4Fp5EeqM7q6asrfHmQ" name="Color" subclassedBy="_umi7cFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_tuwX2Fp5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_unEf4Vp5EeqM7q6asrfHmQ" position="-349.0,-428.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_unEf4lp5EeqM7q6asrfHmQ" label="+"/>
+    <attributes xmi:id="_unEf41p5EeqM7q6asrfHmQ" defaultValue="&quot;WHITE&quot;" name="_WHITE">
+      <modelElement href="Electrodomesticos.uml#_tu5hwFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unEf5Fp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tu5hwlp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unEf5Vp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unEf5lp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unEf51p5EeqM7q6asrfHmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unEf6Fp5EeqM7q6asrfHmQ" defaultValue="&quot;BLACK&quot;" name="_BLACK">
+      <modelElement href="Electrodomesticos.uml#_tu5hw1p5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unEf6Vp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tu5hxVp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unEf6lp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unEf61p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unEf7Fp5EeqM7q6asrfHmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unEf7Vp5EeqM7q6asrfHmQ" defaultValue="&quot;RED&quot;" name="_RED">
+      <modelElement href="Electrodomesticos.uml#_tvDSwFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unEf7lp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvDSwlp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unEf71p5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_unEf8Fp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unEf8Vp5EeqM7q6asrfHmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unEf8lp5EeqM7q6asrfHmQ" defaultValue="&quot;BLUE&quot;" name="_BLUE">
+      <modelElement href="Electrodomesticos.uml#_tvDSw1p5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unEf81p5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvDSxVp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unEf9Fp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unEf9Vp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unEf9lp5EeqM7q6asrfHmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unEf91p5EeqM7q6asrfHmQ" defaultValue="&quot;GRAY&quot;" name="_GRAY">
+      <modelElement href="Electrodomesticos.uml#_tvDSxlp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unEf-Fp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvNDwFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unEf-Vp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unEf-lp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unEf-1p5EeqM7q6asrfHmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_unbFMFp5EeqM7q6asrfHmQ" name="Consumption" subclassedBy="_unU-kFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_tvNDwVp5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_unbFMVp5EeqM7q6asrfHmQ" position="-546.0,-447.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_unbFMlp5EeqM7q6asrfHmQ" label="+"/>
+    <attributes xmi:id="_unbFM1p5EeqM7q6asrfHmQ" defaultValue="'A'" name="_A">
+      <modelElement href="Electrodomesticos.uml#_tvNDwlp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unbFNFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvNDxFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unbFNVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unbFNlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unbFN1p5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unbFOFp5EeqM7q6asrfHmQ" defaultValue="'B'" name="_B">
+      <modelElement href="Electrodomesticos.uml#_tvNDxVp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unbFOVp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvNDx1p5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unbFOlp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unbFO1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unbFPFp5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unbFPVp5EeqM7q6asrfHmQ" defaultValue="'C'" name="_C">
+      <modelElement href="Electrodomesticos.uml#_tvWNsFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unbFPlp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvWNslp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unbFP1p5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_unbFQFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unbFQVp5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unbFQlp5EeqM7q6asrfHmQ" defaultValue="'D'" name="_D">
+      <modelElement href="Electrodomesticos.uml#_tvWNs1p5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unbFQ1p5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvWNtVp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unbFRFp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unbFRVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unbFRlp5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unbFR1p5EeqM7q6asrfHmQ" defaultValue="'E'" name="_E">
+      <modelElement href="Electrodomesticos.uml#_tvWNtlp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unbFSFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvf-sFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unbFSVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unbFSlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unbFS1p5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unbFTFp5EeqM7q6asrfHmQ" defaultValue="'F'" name="_F">
+      <modelElement href="Electrodomesticos.uml#_tvf-sVp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unbFTVp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tvf-s1p5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unbFTlp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unbFT1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unbFUFp5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_unn5gFp5EeqM7q6asrfHmQ" name="Electrodomestic" abstractClass="true" associationsIn="_uj-voFp5EeqM7q6asrfHmQ" generalizations="_umi7cFp5EeqM7q6asrfHmQ _unU-kFp5EeqM7q6asrfHmQ" subclassedBy="_uovT0Fp5EeqM7q6asrfHmQ _upZbIFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_tvf-tFp5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_unn5gVp5EeqM7q6asrfHmQ" position="-553.0,-226.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_unn5glp5EeqM7q6asrfHmQ" label="+"/>
+    <attributes xmi:id="_unn5g1p5EeqM7q6asrfHmQ" name="_basePrice">
+      <modelElement href="Electrodomesticos.uml#_t2cUMFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5hFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2diUFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5hVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unn5hlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5h1p5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unn5iFp5EeqM7q6asrfHmQ" name="_color">
+      <modelElement href="Electrodomesticos.uml#_t2eJYFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5iVp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2fXgFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5ilp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unn5i1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5jFp5EeqM7q6asrfHmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unn5jVp5EeqM7q6asrfHmQ" name="_consumption">
+      <modelElement href="Electrodomesticos.uml#_t2f-kFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5jlp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2hMsFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5j1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unn5kFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5kVp5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unn5klp5EeqM7q6asrfHmQ" name="_weight">
+      <modelElement href="Electrodomesticos.uml#_t2hzwFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5k1p5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2jB4Fp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5lFp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unn5lVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5llp5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unn5l1p5EeqM7q6asrfHmQ" defaultValue="Color._WHITE" name="_DEFAULT_COLOR">
+      <modelElement href="Electrodomesticos.uml#_t2jo8Fp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5mFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2leIFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5mVp5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_unn5mlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5m1p5EeqM7q6asrfHmQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unn5nFp5EeqM7q6asrfHmQ" defaultValue="Consumption._F" name="_DEFAULT_CONSUMPTION">
+      <modelElement href="Electrodomesticos.uml#_t2mFMFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5nVp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2n6YFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5nlp5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_unn5n1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5oFp5EeqM7q6asrfHmQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unn5oVp5EeqM7q6asrfHmQ" defaultValue="5" name="_DEFAULT_WEIGHT">
+      <modelElement href="Electrodomesticos.uml#_t2ohcFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5olp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2qWoFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5o1p5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_unn5pFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5pVp5EeqM7q6asrfHmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_unn5plp5EeqM7q6asrfHmQ" defaultValue="100000" name="_DEFAULT_PRICE">
+      <modelElement href="Electrodomesticos.uml#_t2qWoVp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_unn5p1p5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2tZ8Fp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_unn5qFp5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_unn5qVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_unn5qlp5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_unn5q1p5EeqM7q6asrfHmQ" name="Electrodomestic">
+      <modelElement href="Electrodomesticos.uml#_tvpIoFp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_unn5rFp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_unn5rVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unn5rlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unn5r1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tvpIo1p5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unn5sFp5EeqM7q6asrfHmQ" name="Electrodomestic">
+          <modelElement href="Electrodomesticos.uml#_tvf-tFp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_unn5sVp5EeqM7q6asrfHmQ" name="Electrodomestic">
+      <modelElement href="Electrodomesticos.uml#_tvpIpFp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_unn5slp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_unn5s1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unn5tFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unn5tVp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tvy5olp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unn5tlp5EeqM7q6asrfHmQ" name="Electrodomestic">
+          <modelElement href="Electrodomesticos.uml#_tvf-tFp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_unn5t1p5EeqM7q6asrfHmQ" name="weight">
+        <modelElement href="Electrodomesticos.uml#_tvpIpVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unn5uFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unn5uVp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_unn5ulp5EeqM7q6asrfHmQ" name="basePrice">
+        <modelElement href="Electrodomesticos.uml#_tvpIplp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unn5u1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unn5vFp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_unn5vVp5EeqM7q6asrfHmQ" name="Electrodomestic">
+      <modelElement href="Electrodomesticos.uml#_tvy5o1p5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_unn5vlp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_unn5v1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unn5wFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unn5wVp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tvy5qlp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unn5wlp5EeqM7q6asrfHmQ" name="Electrodomestic">
+          <modelElement href="Electrodomesticos.uml#_tvf-tFp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_unn5w1p5EeqM7q6asrfHmQ" name="basePrice">
+        <modelElement href="Electrodomesticos.uml#_tvy5pFp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unn5xFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unn5xVp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_unn5xlp5EeqM7q6asrfHmQ" name="color">
+        <modelElement href="Electrodomesticos.uml#_tvy5pVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unn5x1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unn5yFp5EeqM7q6asrfHmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_unn5yVp5EeqM7q6asrfHmQ" name="consumption">
+        <modelElement href="Electrodomesticos.uml#_tvy5plp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unn5ylp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unn5y1p5EeqM7q6asrfHmQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_unn5zFp5EeqM7q6asrfHmQ" name="weight">
+        <modelElement href="Electrodomesticos.uml#_tvy5p1p5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unn5zVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unogkFp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_unogkVp5EeqM7q6asrfHmQ" comments="_pLytgFp6EeqM7q6asrfHmQ" targetConnectionVisual="_pL73cFp6EeqM7q6asrfHmQ" name="get_basePrice">
+      <modelElement href="Electrodomesticos.uml#_tvy5q1p5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_unogklp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unogk1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unoglFp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tvy5rFp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unoglVp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_unogllp5EeqM7q6asrfHmQ" comments="_pL73cVp6EeqM7q6asrfHmQ" targetConnectionVisual="_pMOyYFp6EeqM7q6asrfHmQ" name="get_color">
+      <modelElement href="Electrodomesticos.uml#_tv8qoFp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_unogl1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unogmFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unogmVp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tv8qoVp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unogmlp5EeqM7q6asrfHmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_unogm1p5EeqM7q6asrfHmQ" comments="_pMYjYFp6EeqM7q6asrfHmQ" targetConnectionVisual="_pMYjYVp6EeqM7q6asrfHmQ" name="get_consumption">
+      <modelElement href="Electrodomesticos.uml#_tv8qolp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_unognFp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unognVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unognlp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tv8qo1p5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unogn1p5EeqM7q6asrfHmQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_unogoFp5EeqM7q6asrfHmQ" comments="_pMiUYFp6EeqM7q6asrfHmQ" targetConnectionVisual="_pMreUFp6EeqM7q6asrfHmQ" name="get_weight">
+      <modelElement href="Electrodomesticos.uml#_tv8qpFp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_unogoVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unogolp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unogo1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tv8qpVp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unogpFp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_unogpVp5EeqM7q6asrfHmQ" name="_checkConsumption">
+      <modelElement href="Electrodomesticos.uml#_tv8qplp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_unogplp5EeqM7q6asrfHmQ" label="#"/>
+      <cardinality xmi:id="_unogp1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unogqFp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tv8qqFp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unogqVp5EeqM7q6asrfHmQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_unogqlp5EeqM7q6asrfHmQ" name="letter">
+        <modelElement href="Electrodomesticos.uml#_tv8qp1p5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unogq1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unogrFp5EeqM7q6asrfHmQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_unogrVp5EeqM7q6asrfHmQ" name="_checkColor">
+      <modelElement href="Electrodomesticos.uml#_tv8qqVp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_unogrlp5EeqM7q6asrfHmQ" label="#"/>
+      <cardinality xmi:id="_unogr1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unogsFp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twF0kFp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unogsVp5EeqM7q6asrfHmQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_unogslp5EeqM7q6asrfHmQ" name="color">
+        <modelElement href="Electrodomesticos.uml#_tv8qqlp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_unogs1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_unogtFp5EeqM7q6asrfHmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_unogtVp5EeqM7q6asrfHmQ" name="_finalPrice">
+      <modelElement href="Electrodomesticos.uml#_twF0kVp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_unogtlp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_unogt1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_unoguFp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twF0klp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_unoguVp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uo-kYFp5EeqM7q6asrfHmQ" name="Television" generalizations="_uovT0Fp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_twPlkFp5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_uo-kYVp5EeqM7q6asrfHmQ" position="-134.0,712.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uo-kYlp5EeqM7q6asrfHmQ" label="+"/>
+    <attributes xmi:id="_uo-kY1p5EeqM7q6asrfHmQ" name="_resolution">
+      <modelElement href="Electrodomesticos.uml#_t2v2MFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_uo-kZFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2xEUFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_uo-kZVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo-kZlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_uo-kZ1p5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uo-kaFp5EeqM7q6asrfHmQ" name="_hasTdt">
+      <modelElement href="Electrodomesticos.uml#_t2xrYFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_uo-kaVp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t2yScFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_uo-kalp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo-ka1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_uo-kbFp5EeqM7q6asrfHmQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uo-kbVp5EeqM7q6asrfHmQ" defaultValue="20" name="_DEFAULT_RES">
+      <modelElement href="Electrodomesticos.uml#_t2y5gFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_uo-kblp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t20HoFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_uo-kb1p5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_uo-kcFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_uo-kcVp5EeqM7q6asrfHmQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uo-kclp5EeqM7q6asrfHmQ" defaultValue="false" name="_DEFAULT_HAS_TDT">
+      <modelElement href="Electrodomesticos.uml#_t20usFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_uo-kc1p5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t22j4Fp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_uo-kdFp5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_uo-kdVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_uo-kdlp5EeqM7q6asrfHmQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uo-kd1p5EeqM7q6asrfHmQ" comments="_uoxwEFp5EeqM7q6asrfHmQ" targetConnectionVisual="_uoxwEVp5EeqM7q6asrfHmQ" name="Television">
+      <modelElement href="Electrodomesticos.uml#_twPlkVp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_uo-keFp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_uo-keVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo-kelp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo-ke1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twPllFp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_uo-kfFp5EeqM7q6asrfHmQ" name="Television">
+          <modelElement href="Electrodomesticos.uml#_twPlkFp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uo-kfVp5EeqM7q6asrfHmQ" name="Television">
+      <modelElement href="Electrodomesticos.uml#_twZWkFp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_uo-kflp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_uo-kf1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo-kgFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo-kgVp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twZWlFp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_uo-kglp5EeqM7q6asrfHmQ" name="Television">
+          <modelElement href="Electrodomesticos.uml#_twPlkFp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uo-kg1p5EeqM7q6asrfHmQ" name="basePrice">
+        <modelElement href="Electrodomesticos.uml#_twZWkVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_uo-khFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_uo-khVp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uo-khlp5EeqM7q6asrfHmQ" comments="_uo0MUFp5EeqM7q6asrfHmQ" targetConnectionVisual="_uo0MUVp5EeqM7q6asrfHmQ" name="Television">
+      <modelElement href="Electrodomesticos.uml#_twZWlVp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_uo-kh1p5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_uo-kiFp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo-kiVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo-kilp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twZWnlp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_uo-ki1p5EeqM7q6asrfHmQ" name="Television">
+          <modelElement href="Electrodomesticos.uml#_twPlkFp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uo-kjFp5EeqM7q6asrfHmQ" name="_resolution">
+        <modelElement href="Electrodomesticos.uml#_twZWllp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_uo-kjVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_uo-kjlp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo-kj1p5EeqM7q6asrfHmQ" name="_hasTdt">
+        <modelElement href="Electrodomesticos.uml#_twZWl1p5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_uo-kkFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_uo-kkVp5EeqM7q6asrfHmQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo-kklp5EeqM7q6asrfHmQ" name="basePrice">
+        <modelElement href="Electrodomesticos.uml#_twZWmFp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_uo-kk1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_uo-klFp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo-klVp5EeqM7q6asrfHmQ" name="color">
+        <modelElement href="Electrodomesticos.uml#_twZWmVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_uo-kllp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_uo-kl1p5EeqM7q6asrfHmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo-kmFp5EeqM7q6asrfHmQ" name="consumption">
+        <modelElement href="Electrodomesticos.uml#_twZWmlp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_uo-kmVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_uo-kmlp5EeqM7q6asrfHmQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo-km1p5EeqM7q6asrfHmQ" name="weight">
+        <modelElement href="Electrodomesticos.uml#_twZWm1p5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_uo-knFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_uo-knVp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uo_LcFp5EeqM7q6asrfHmQ" comments="_uo1acFp5EeqM7q6asrfHmQ" targetConnectionVisual="_uo2BgFp5EeqM7q6asrfHmQ" name="get_resolution">
+      <modelElement href="Electrodomesticos.uml#_twiggFp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_uo_LcVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo_Lclp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo_Lc1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twiggVp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_uo_LdFp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uo_LdVp5EeqM7q6asrfHmQ" comments="_uo3PoFp5EeqM7q6asrfHmQ" targetConnectionVisual="_uo3PoVp5EeqM7q6asrfHmQ" name="is_hasTdt">
+      <modelElement href="Electrodomesticos.uml#_twigglp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_uo_Ldlp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo_Ld1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo_LeFp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twigg1p5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_uo_LeVp5EeqM7q6asrfHmQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uo_Lelp5EeqM7q6asrfHmQ" name="_finalPrice">
+      <modelElement href="Electrodomesticos.uml#_twighFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_uo_Le1p5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_twighlp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo_LfFp5EeqM7q6asrfHmQ" name="Annotations">
+        <modelElement href="Electrodomesticos.uml#_twigh1p5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_uo_LfVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_uo_Lflp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo_Lf1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_twighVp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_uo_LgFp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_up9b0Fp5EeqM7q6asrfHmQ" name="View">
+    <modelElement href="Electrodomesticos.uml#_txI9cFp5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_up9b0Vp5EeqM7q6asrfHmQ" position="-444.0,504.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_up9b0lp5EeqM7q6asrfHmQ" label="+"/>
+    <operations xmi:id="_up9b01p5EeqM7q6asrfHmQ" name="main" staticOperation="true">
+      <modelElement href="Electrodomesticos.uml#_txI9cVp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_up9b1Fp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_up9b1Vp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_up9b1lp5EeqM7q6asrfHmQ" name="args">
+        <modelElement href="Electrodomesticos.uml#_txI9clp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_up9b11p5EeqM7q6asrfHmQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_up9b2Fp5EeqM7q6asrfHmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_up9b2Vp5EeqM7q6asrfHmQ" name="_assignData" staticOperation="true">
+      <modelElement href="Electrodomesticos.uml#_t1_BMFp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_up9b2lp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_up9b21p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_up9b3Fp5EeqM7q6asrfHmQ" name="n">
+        <modelElement href="Electrodomesticos.uml#_t1_oQFp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_up9b3Vp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_up9b3lp5EeqM7q6asrfHmQ" name="Control">
+          <modelElement href="Electrodomesticos.uml#_tt2_8Fp5EeqM7q6asrfHmQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_up9b31p5EeqM7q6asrfHmQ" name="option">
+        <modelElement href="Electrodomesticos.uml#_t1_oQVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_up9b4Fp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_up9b4Vp5EeqM7q6asrfHmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_up9b4lp5EeqM7q6asrfHmQ" name="_getTotalPrice" staticOperation="true">
+      <modelElement href="Electrodomesticos.uml#_t2BdcFp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_up9b41p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_up9b5Fp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_up9b5Vp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_t2CEgFp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_up9b5lp5EeqM7q6asrfHmQ" name="TotalPrice">
+          <modelElement href="Electrodomesticos.uml#_tuc101p5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_up9b51p5EeqM7q6asrfHmQ" name="n">
+        <modelElement href="Electrodomesticos.uml#_t2BdcVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_up9b6Fp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_up9b6Vp5EeqM7q6asrfHmQ" name="Control">
+          <modelElement href="Electrodomesticos.uml#_tt2_8Fp5EeqM7q6asrfHmQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_up9b6lp5EeqM7q6asrfHmQ" name="_showTotalPrices" staticOperation="true">
+      <modelElement href="Electrodomesticos.uml#_t2CrkFp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_up9b61p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_up9b7Fp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_up9b7Vp5EeqM7q6asrfHmQ" name="control">
+        <modelElement href="Electrodomesticos.uml#_t2CrkVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_up9b7lp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_up9b71p5EeqM7q6asrfHmQ" name="Control">
+          <modelElement href="Electrodomesticos.uml#_tt2_8Fp5EeqM7q6asrfHmQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_upoEoFp5EeqM7q6asrfHmQ" name="WashingMachine" generalizations="_upZbIFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_twsRgVp5EeqM7q6asrfHmQ"/>
+    <visualProperties xmi:id="_upoEoVp5EeqM7q6asrfHmQ" position="-139.0,1063.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_upoEolp5EeqM7q6asrfHmQ" label="+"/>
+    <attributes xmi:id="_upoEo1p5EeqM7q6asrfHmQ" name="_load">
+      <modelElement href="Electrodomesticos.uml#_t23yAFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_upoEpFp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t25AIFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_upoEpVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_upoEplp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_upoEp1p5EeqM7q6asrfHmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_upoEqFp5EeqM7q6asrfHmQ" defaultValue="5" name="_LOAD">
+      <modelElement href="Electrodomesticos.uml#_t25nMFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_upoEqVp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_t27cYFp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_upoEqlp5EeqM7q6asrfHmQ" label="~"/>
+      <cardinality xmi:id="_upoEq1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <type xmi:id="_upoErFp5EeqM7q6asrfHmQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_upoErVp5EeqM7q6asrfHmQ" comments="_sNvmIFp7EeqM7q6asrfHmQ" targetConnectionVisual="_sNvmIVp7EeqM7q6asrfHmQ" name="WashingMachine">
+      <modelElement href="Electrodomesticos.uml#_tw1bcFp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_upoErlp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_upoEr1p5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_upoEsFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upoEsVp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tw1bc1p5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_upoEslp5EeqM7q6asrfHmQ" name="WashingMachine">
+          <modelElement href="Electrodomesticos.uml#_twsRgVp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upoEs1p5EeqM7q6asrfHmQ" comments="_sOWDEFp7EeqM7q6asrfHmQ" targetConnectionVisual="_sOWDEVp7EeqM7q6asrfHmQ" name="WashingMachine">
+      <modelElement href="Electrodomesticos.uml#_tw1bdFp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_upoEtFp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_upoEtVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_upoEtlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upoEt1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tw1beVp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_upoEuFp5EeqM7q6asrfHmQ" name="WashingMachine">
+          <modelElement href="Electrodomesticos.uml#_twsRgVp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_upoEuVp5EeqM7q6asrfHmQ" name="weight">
+        <modelElement href="Electrodomesticos.uml#_tw1bdVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_upoEulp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_upoEu1p5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upoEvFp5EeqM7q6asrfHmQ" name="basePrice">
+        <modelElement href="Electrodomesticos.uml#_tw1bdlp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_upoEvVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_upoEvlp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upoEv1p5EeqM7q6asrfHmQ" comments="_sOyvAFp7EeqM7q6asrfHmQ" targetConnectionVisual="_sPFp8Fp7EeqM7q6asrfHmQ" name="WashingMachine">
+      <modelElement href="Electrodomesticos.uml#_tw1belp5EeqM7q6asrfHmQ"/>
+      <keywords xmi:id="_upoEwFp5EeqM7q6asrfHmQ" keyword="create"/>
+      <visibility xmi:id="_upoEwVp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_upoEwlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upoEw1p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tw_MdVp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_upoExFp5EeqM7q6asrfHmQ" name="WashingMachine">
+          <modelElement href="Electrodomesticos.uml#_twsRgVp5EeqM7q6asrfHmQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_upoExVp5EeqM7q6asrfHmQ" name="load">
+        <modelElement href="Electrodomesticos.uml#_tw1be1p5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_upoExlp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_upoEx1p5EeqM7q6asrfHmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upoEyFp5EeqM7q6asrfHmQ" name="basePrice">
+        <modelElement href="Electrodomesticos.uml#_tw1bfFp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_upoEyVp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_upoEylp5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upoEy1p5EeqM7q6asrfHmQ" name="color">
+        <modelElement href="Electrodomesticos.uml#_tw_McFp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_upoEzFp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_upoEzVp5EeqM7q6asrfHmQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upoEzlp5EeqM7q6asrfHmQ" name="consumption">
+        <modelElement href="Electrodomesticos.uml#_tw_McVp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_upoEz1p5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_upoE0Fp5EeqM7q6asrfHmQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upoE0Vp5EeqM7q6asrfHmQ" name="weight">
+        <modelElement href="Electrodomesticos.uml#_tw_Mclp5EeqM7q6asrfHmQ"/>
+        <cardinality xmi:id="_upoE0lp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+        <type xmi:id="_upoE01p5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upoE1Fp5EeqM7q6asrfHmQ" comments="_sPPa8Fp7EeqM7q6asrfHmQ" targetConnectionVisual="_sPPa8Vp7EeqM7q6asrfHmQ" name="get_load">
+      <modelElement href="Electrodomesticos.uml#_tw_Mdlp5EeqM7q6asrfHmQ"/>
+      <visibility xmi:id="_upoE1Vp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_upoE1lp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upoE11p5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tw_Md1p5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_upoE2Fp5EeqM7q6asrfHmQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upoE2Vp5EeqM7q6asrfHmQ" name="_finalPrice">
+      <modelElement href="Electrodomesticos.uml#_tw_MeFp5EeqM7q6asrfHmQ"/>
+      <stereotypes xmi:id="_upoE2lp5EeqM7q6asrfHmQ" name="LegacyStyledElement">
+        <modelElement href="Electrodomesticos.uml#_tw_Melp5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_upoE21p5EeqM7q6asrfHmQ" name="Annotations">
+        <modelElement href="Electrodomesticos.uml#_tw_Me1p5EeqM7q6asrfHmQ"/>
+      </stereotypes>
+      <visibility xmi:id="_upoE3Fp5EeqM7q6asrfHmQ" label="+"/>
+      <cardinality xmi:id="_upoE3Vp5EeqM7q6asrfHmQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upoE3lp5EeqM7q6asrfHmQ">
+        <modelElement href="Electrodomesticos.uml#_tw_MeVp5EeqM7q6asrfHmQ"/>
+        <type xmi:id="_upoE31p5EeqM7q6asrfHmQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pLytgFp6EeqM7q6asrfHmQ" sourceConnectionVisual="_pL73cFp6EeqM7q6asrfHmQ" text="@return the _basePrice" item="_unogkVp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_pLCfkFp6EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pL73cVp6EeqM7q6asrfHmQ" sourceConnectionVisual="_pMOyYFp6EeqM7q6asrfHmQ" text="@return the _color" item="_unogllp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_pLCfkVp6EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pMYjYFp6EeqM7q6asrfHmQ" sourceConnectionVisual="_pMYjYVp6EeqM7q6asrfHmQ" text="@return the _consumption" item="_unogm1p5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_pLCfklp6EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pMiUYFp6EeqM7q6asrfHmQ" sourceConnectionVisual="_pMreUFp6EeqM7q6asrfHmQ" text="@return the _weight" item="_unogoFp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_pLCfk1p6EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sNvmIFp7EeqM7q6asrfHmQ" sourceConnectionVisual="_sNvmIVp7EeqM7q6asrfHmQ" text="*" item="_upoErVp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_sNJwQFp7EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sOWDEFp7EeqM7q6asrfHmQ" sourceConnectionVisual="_sOWDEVp7EeqM7q6asrfHmQ" text="@param _load" item="_upoEs1p5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_sNJwQVp7EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sOyvAFp7EeqM7q6asrfHmQ" sourceConnectionVisual="_sPFp8Fp7EeqM7q6asrfHmQ" text="@param _load" item="_upoEv1p5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_sNJwQlp7EeqM7q6asrfHmQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sPPa8Fp7EeqM7q6asrfHmQ" sourceConnectionVisual="_sPPa8Vp7EeqM7q6asrfHmQ" text="@return the _load" item="_upoE1Fp5EeqM7q6asrfHmQ">
+    <modelElement href="Electrodomesticos.uml#_sNJwQ1p7EeqM7q6asrfHmQ"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

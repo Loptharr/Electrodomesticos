@@ -1,5 +1,8 @@
 package Model;
 
+//@author;    Marcelo Correa
+//@param;     Clase padre, tipo electrodomesticos,  es abstracta, no instanciable
+
 public abstract class Electrodomestic implements Color,Consumption {
 
     public float _basePrice;
@@ -70,6 +73,11 @@ public abstract class Electrodomestic implements Color,Consumption {
 		return _weight;
 	}
 
+//	@author;    Marcelo Correa
+//	@param;     este método recibe un char el cual lo compara recorriendo los char entre A y F, si no lo encuentra asigna el DEFAULT
+//	@return;    retorna un boolean de respuesta por si acaso (Declarando si el char ingresado existia en el universo o false si asigna el por default)
+
+	
 	protected boolean _checkConsumption(char letter) {
 		if ((letter >= 'A' && letter <= 'F')) {
             return true;
@@ -78,6 +86,10 @@ public abstract class Electrodomestic implements Color,Consumption {
         	return false;
         }
 	}
+	
+//	@author;    Marcelo Correa
+//	@param;     este método recibe un string el cual lo compara con un switch, entre los colores disponibles, si no lo encuentra asigna el DEFAULT
+//	@return;    retorna un boolean de respuesta por si acaso (Declarando si el color ingresado existia en el universo o false si asigna el por default)
 	
 	protected boolean _checkColor(String color) {
 		switch (color.toUpperCase()) {
@@ -96,6 +108,10 @@ public abstract class Electrodomestic implements Color,Consumption {
 	        	return false;
 			}
 	}
+	
+//	@author;    Marcelo Correa
+//	@param;     este método toma el precio base, con un switch revisa cual es y incrementa el valor. despues con if anidados tambien compra segun int de precio y suma en incremento el valor
+//	@return;    retorna un float con el precio final modificado por su consumo y peso
 	
 	public float _finalPrice() {
 		float finalPrice=_basePrice;

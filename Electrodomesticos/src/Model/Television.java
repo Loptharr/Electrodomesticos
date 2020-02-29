@@ -56,6 +56,9 @@ public class Television extends Electrodomestic {
 		return _hasTdt;
 	}
 
+//	@author;    Marcelo Correa
+//	@param;     este método crea un precio final, aplicando el metodo de la super clase primero, y luego le agrega el valor de incremento segun la validacion de resolucion y tdt 
+//	@return; 	retorna un float con el precio final incrementado
 	@Override
 	public float _finalPrice() {
 		float finalPrice = super._finalPrice();
